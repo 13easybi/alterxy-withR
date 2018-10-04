@@ -1,12 +1,10 @@
 # alterxy-withR
-Change parameters of Alterxy workflow based in a list. <br>
+Change parameters of Alterxy workflow based in a csv list. <br>
 Developed by: Daniel P. de Freitas impactr.info <br>
 
-If you have an Alterxy workflow (with or withou in-db tools) and need to change in a lot of places a parameter or a lot of different parameters, this code can help you. With it you can change the Alterxy xml string based in a csv list and save a new Alterxy ".yxmd" for each new parameter.<br>
+If you have an Alterxy workflow (with or withou in-db tools) and need to change in a lot of places a parameter or a lot of different parameters (Ex. Partition Names, twelve months), this code can help you. With it you can change the Alterxy xml string based in a csv list and save a new Alterxy ".yxmd" for each new parameter.<br>
 <br>
-Just copy the "Execute_aqui.txt" and "Gera_arq_alterxy.R" to a folder that you want to create your new files. <br>
-<br>
-Change the extension of "Execute_aqui.txt" file to ".bat".<br><br>
+Just copy the "Execute_aqui.bat" and "Gera_arq_alterxy.R" to a folder that you want to create your new files. <br>
 <br>
 Execute for the first time this batch "Execute_aqui.bat". The program will create all directories to work. <br>
 <br>
