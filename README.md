@@ -1,5 +1,6 @@
 # alterxy-withR
 Change parameters of Alterxy workflow based in a list.
+Developed by: Daniel P. de Freitas impactr.info
 
 If you have an Alterxy workflow (with or withou in-db tools) and need to change in a lot of places a parameter or a lot of different parameters, this code can help you. With it you can change the Alterxy xml string based in a csv list and save a new Alterxy ".yxmd" for each new parameter.
 
