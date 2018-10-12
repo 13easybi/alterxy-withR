@@ -6,7 +6,7 @@ getScriptPath <- function(){
   if(length(script.dir) > 1) stop("can't determine script dir: more than one '--file' argument detected")
   return(script.dir)
 }
-#path <- data.frame(pat = unlist(strsplit(c("C:/Users/Fiveacts/teste_2"),"/")))
+#path <- data.frame(pat = unlist(strsplit(c("C:/Users/user/teste_2"),"/")))
 path <- data.frame(pat = unlist(strsplit(c(getScriptPath()),"/")))
 path$pat <- as.character(path$pat)
 
@@ -40,7 +40,7 @@ fnames <- dir(paste0(montando,Param_dir,"/"), pattern = "csv")
 alt_nm <- dir(paste0(montando), pattern = "yxmd")
 
 if ( length(fnames)<=0 & length( alt_nm)<=0 ){
-  ###Primeira execução do programa 
+  ###Primeira execuÃ§Ã£o do programa 
   #####Gera diretorios necessarios
   #####Gera Log solicitando inclusao de lista de parametro
   #####Gera Log solicitando inclusao arquivo .yxmd
@@ -80,7 +80,7 @@ Insira o arquivo de parametros na pasta ~/parametros
 } else if ( length(fnames)>0 & length( alt_nm)<=0 )
   
   {
-  ###Execução do programa com arquivo parametro sem arquivo alterxy
+  ###ExecuÃ§Ã£o do programa com arquivo parametro sem arquivo alterxy
   #####Gera Log solicitando inclusao arquivo .yxmd
   log_texto <- as.character(paste( "
                                    ",Sys.time()," 
@@ -103,7 +103,7 @@ Agora copie o arquivo .yxmd na pasta raiz da aplicacao, na mesma pasta do arquiv
   
   {
     
-  ###Execução do programa com  arquivo alterxy sem arquivo parametro 
+  ###ExecuÃ§Ã£o do programa com  arquivo alterxy sem arquivo parametro 
   #####Gera Log solicitando inclusao arquivo .yxmd
   log_texto <- as.character(paste( "
                                    ",Sys.time()," 
